@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Here</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c958407be1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="Form-Box">
+             <br> <h1 id="title"><b>Signup</b></h1>
+             <form>
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" required>
+                        
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-field" id="datefield">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input type="date" id="birthday" name="birthday" placeholder="Date Of Birth" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-field" id="numberfield">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="number" name="Contact" placeholder="Contact Number" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="showpassword" placeholder="Enter Password" required>
+                    </div>
+                    <p>Forget Password? <a href="#">Click Here!</a> </p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupbtn">Sign Up</button>
+                    <button type="button" id="loginbtn" class="disable">Log In</button>
+                </div>
+             </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
